@@ -1,0 +1,58 @@
+.vjs-controls {
+	z-index: 600 !important;
+}
+
+.vjs-link {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	top: 0px;
+	left: 0px;
+	position: absolute !important;
+	z-index: 500 !important;
+}
+
+.vjs-link span, .vjs-link a {
+	display: block;
+	text-decoration: none;
+	font-size: 240px;
+	z-index: 501;
+	width: 100%;
+	height: 100%;
+	line-height: 100%;
+}
+
+.vjs-info-ad-time { 
+	width: auto;
+	height: 3em;
+	outline: none;
+	position: relative;
+	text-align: center;
+	line-height: 3em;
+	margin: 0 130px 0 50px;
+	padding: 0;
+}
+
+.vjs-manual-lock-showing {
+	display: block !important;
+	opacity: 1 !important;
+	visibility: visible !important;
+	-webkit-transition: visibility 0.1s, opacity 0.1s !important;
+	-moz-transition: visibility 0.1s, opacity 0.1s !important;
+	-o-transition: visibility 0.1s, opacity 0.1s !important;
+	transition: visibility 0.1s, opacity 0.1s !important;
+}
+
+.vjs-stage-overlay {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	z-index: 9999;
+	background: #000000;
+	opacity: 0;
+	margin-top: -32px;
+}

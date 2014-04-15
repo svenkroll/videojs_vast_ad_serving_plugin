@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0" xsi:noNamespaceSchemaLocation="vast.xsd">
+    <Ad id="256004263">
+        <InLine>
+            <AdSystem version="2.0">DFP</AdSystem>
+            <AdTitle>Demo AdTag</AdTitle>
+            <Description>Demo AdTag</Description>
+            <Impression id="Demo1"><![CDATA[]]></Impression>
+            <Creatives>
+                <Creative sequence="1" AdID="">
+                    <Linear>
+                        <Duration>00:00:30</Duration>
+                        <TrackingEvents>
+                            <Tracking event="start"><![CDATA[]]></Tracking>
+                            <Tracking event="midpoint"><![CDATA[]]></Tracking>
+                            <Tracking event="firstQuartile"><![CDATA[]]></Tracking>
+                            <Tracking event="thirdQuartile"><![CDATA[]]></Tracking>
+                            <Tracking event="complete"><![CDATA[]]></Tracking>
+                            <Tracking event="mute"><![CDATA[]]></Tracking>
+                            <Tracking event="pause"><![CDATA[]]></Tracking>
+                            <Tracking event="fullscreen"><![CDATA[]]></Tracking>
+                        </TrackingEvents>
+                        <AdParameters/>
+                        <VideoClicks>
+                            <ClickThrough><![CDATA[]]></ClickThrough>
+                            <ClickTracking id="Demo1"><![CDATA[]]></ClickTracking>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile id="1" delivery="progressive" type="video/webm" bitrate="313" width="640" height="360"><![CDATA[http://gcdn.2mdn.net/MotifFiles/html/2215309/Water_30sec_134271548976928.webm]]></MediaFile>
+                            <MediaFile id="2" delivery="progressive" type="video/mp4" bitrate="728" width="640" height="360"><![CDATA[http://gcdn.2mdn.net/MotifFiles/html/2215309/Water_30sec_134271553112442.mp4]]></MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
