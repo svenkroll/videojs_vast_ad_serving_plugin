@@ -57,7 +57,7 @@ function vastPlugin(options) {
 
 		player.on('play', function(e) {
 			//if maintrack is starting
-			if (_v.prerolls < maxPreRolls && _v.currentSlot === null) {				
+			if (_v.prerolls < maxPreRolls && _v.currentSlot === null) {
 				//check if pre-roll exists
 				for (var i = 0; i < _v.adList.length; i++) {
 					if (_v.adList[i].getAdType() === "pre-roll" && !_v.adList[i].isSeen()) {
@@ -264,7 +264,7 @@ function vastPlugin(options) {
 	};
 
 	function adTimer() {
-		//update duration string every second, 
+		//update duration string every second,
 		document.getElementById('info-ad-time')
 			.innerHTML = "WERBUNG: Noch " + (_v.currentSlot.getDuration() - Math.ceil(player.currentTime())) + " Sekunden.";
 
@@ -488,7 +488,7 @@ function vastPlugin(options) {
 		this.requestAd = function() {
 			_requestAd(vastTagUrl);
 		};
-		
+
 		function _requestAd(_url) {
 			url = replaceCacheBuster(_url);
 			if (window.XMLHttpRequest) {
@@ -795,4 +795,4 @@ function vastPlugin(options) {
 	};
 };
 
-_V_.plugin('vastPlugin', vastPlugin);
+vjs.plugin('vastPlugin', vastPlugin);
